@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Restaurant:</strong>
+  <%= @review.restaurant_id %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @review.content %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @review.rating %>
+</p
+
+<%= link_to 'Edit', edit_review_path(@review) %> |
+<%= link_to 'Back', reviews_path %>
